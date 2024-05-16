@@ -1,10 +1,5 @@
 # RAG with Llama3 on Groq
 
-This cookbook shows how to do retrieval-augmented generation (RAG) using Llama3 on Groq.
-
-For embeddings we can either use Ollama or OpenAI.
-
-> Note: Fork and clone this repository if needed
 
 ### 1. Create a virtual environment
 
@@ -72,14 +67,4 @@ docker run -d \
 streamlit run cookbook/llms/groq/rag/app.py
 ```
 
-- Open [localhost:8501](http://localhost:8501) to view your RAG app.
-- Add websites or PDFs and ask question.
-
-- Example Website: https://techcrunch.com/2024/04/18/meta-releases-llama-3-claims-its-among-the-best-open-models-available/
-- Ask questions like:
-  - What did Meta release?
-  - Tell me more about the Llama 3 models?
-
-### 7. Message on [discord](https://discord.gg/4MtYHHrgA8) if you have any questions
-
-### 8. Star ⭐️ the project if you like it.
+- 打开 [localhost:8501](http://localhost:8501) 查看您的 RAG 应用程序。
